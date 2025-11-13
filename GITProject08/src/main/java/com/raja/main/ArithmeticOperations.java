@@ -11,6 +11,11 @@ public class ArithmeticOperations {
 	}
 	
 	public double mul(int a, int b) {
+		//Multiplication method
 		return a*b;
+	}
+	
+	public double div(int a, int b) {
+		return a/b;
 	}
 }
