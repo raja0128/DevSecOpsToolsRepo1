@@ -7,6 +7,10 @@ public class BankingService {
 	}
 	
 	public String debitAmount(Long accNo, double amt) {
-		return amt + " Amount debited from " + accNo + " successfully";
+		return amt + " debited from " + accNo + " successfully";
+	}
+	
+	public String creditAmount(Long accNo, double amt) {
+		return amt + " credited to " + accNo + " successfully";
 	}
 }
