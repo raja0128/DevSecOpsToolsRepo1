@@ -5,4 +5,8 @@ public class ArithmeticOperations {
 	public double sum (int a, int b) {
 		return a+b;
 	}
+	
+	public float sub(int a, int b) {
+		return a+b;
+	}
 }
