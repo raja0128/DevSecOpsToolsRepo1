@@ -9,5 +9,8 @@ public class AppTest {
 		double result = ao.sum(10, 20);
 
 		float result1 = ao.sub(60f, 50f);
+		
+		System.out.println(result);
+		System.out.println(result1);
 	}
 }
