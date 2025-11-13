@@ -13,4 +13,8 @@ public class BankingService {
 	public String creditAmount(Long accNo, double amt) {
 		return amt + " credited to " + accNo + " successfully";
 	}
+	
+	public String changeMobileNumber(Long mblNo) {
+		return mblNo + " deleted successfully"; 
+	}
 }
