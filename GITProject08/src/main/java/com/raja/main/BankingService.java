@@ -15,6 +15,6 @@ public class BankingService {
 	}
 	
 	public String changeMobileNumber(Long mblNo) {
-		return mblNo + " deleted successfully"; 
+		return mblNo + " deleted successfully  1234567890"; 
 	}
 }
