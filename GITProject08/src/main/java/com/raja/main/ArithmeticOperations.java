@@ -6,7 +6,7 @@ public class ArithmeticOperations {
 		return a+b;
 	}
 	
-	public float sub(int a, int b) {
+	public float sub(float a, float b) {
 		return a+b;
 	}
 }
