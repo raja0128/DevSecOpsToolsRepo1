@@ -17,4 +17,8 @@ public class BankingService {
 	public String changeMobileNumber(Long mblNo) {
 		return mblNo + " deleted successfully"; 
 	}
+	
+	public String sendRequestForMoney(long mblNo, double amt) {
+		return "Request sent Successwfully to " +mblNo + " for Amount:- " + amt;
+	}
 }
